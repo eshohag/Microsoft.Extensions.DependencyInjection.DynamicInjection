@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Extensions.DependencyInjection.DynamicInjection", "Microsoft.Extensions.DependencyInjection.DynamicInjection\Microsoft.Extensions.DependencyInjection.DynamicInjection.csproj", "{EFA249FC-11DD-4C0C-819F-47717C6DD2AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFA249FC-11DD-4C0C-819F-47717C6DD2AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA249FC-11DD-4C0C-819F-47717C6DD2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA249FC-11DD-4C0C-819F-47717C6DD2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA249FC-11DD-4C0C-819F-47717C6DD2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55D9B286-0F6E-475A-A336-FD4F266136AD}
+	EndGlobalSection
+EndGlobal
