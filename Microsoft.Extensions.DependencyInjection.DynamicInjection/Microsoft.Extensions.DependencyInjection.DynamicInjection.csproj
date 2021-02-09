@@ -7,12 +7,12 @@
 	<Company></Company>
 	<Copyright>©eShohag. All rights reserved.</Copyright>
 	<RepositoryUrl>https://github.com/eshohag/Demo.DynamicInjections</RepositoryUrl>
-	<RepositoryType>github</RepositoryType>
+	<RepositoryType>git</RepositoryType>
 	<Description>Default implementation of dynamic dependency injection in ASP.NET Core projects for eShohag.AspNetCore.DynamicInjection</Description>
-	<Version>1.0.1</Version>
+	<Version>1.0.0</Version>
 	<PackageTags>AspNetCore;DynamicInjection;Dependency;Injection;Ioc;Container; IocContainer;</PackageTags>
 	<PackageProjectUrl>https://github.com/eshohag/Microsoft.Extensions.DependencyInjection.DynamicInjection</PackageProjectUrl>
-	<PackageId>eShohag.AspNetCore.DynamicInjection</PackageId>
+	<PackageId>AspNetCore.DynamicInjection</PackageId>
 	<Product>AspNetCore.DynamicInjection</Product>
 	<PackageReleaseNotes>https://github.com/eshohag/Microsoft.Extensions.DependencyInjection.DynamicInjection</PackageReleaseNotes>
 	<PackageLicenseFile>LicenseInfo.txt</PackageLicenseFile>
