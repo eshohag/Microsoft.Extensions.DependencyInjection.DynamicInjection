@@ -1,8 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <PackageIcon>icon.png</PackageIcon>
+    <Authors>MD Shohag Mia</Authors>
+    <Company>ABC Technologies Ltd</Company>
+    <Copyright>Copyright@2021</Copyright>
+    <RepositoryUrl>https://github.com/eshohag/Demo.DynamicInjections</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>Default implementation of dynamic dependency injection in ASP.NET Core projects for Microsoft.Extensions.DependencyInjection.DynamicInjection
+
+Required- .NET Core 3.1 &amp; Microsoft.Extensions.DependencyInjection</Description>
+    <Version>1.0.0-rc</Version>
+    <PackageTags>DynamicInjection;Dependency;Injection;Ioc;container</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
