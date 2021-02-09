@@ -1,29 +1,38 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <PackageIcon>icon.png</PackageIcon>
-    <Authors>eShohag</Authors>
-    <Company>ABC Technologies Ltd</Company>
-    <Copyright>© ABC Technologies. All rights reserved.</Copyright>
-    <RepositoryUrl>https://github.com/eshohag/Demo.DynamicInjections</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
-    <Description>Default implementation of dynamic dependency injection in ASP.NET Core projects for Microsoft.Extensions.DependencyInjection.DynamicInjection
-
-Required- .NET Core 3.1 &amp; Microsoft.Extensions.DependencyInjection</Description>
-    <Version>1.0.0-rc</Version>
-    <PackageTags>DynamicInjection;Dependency;Injection;Ioc;Container</PackageTags>
+	<TargetFramework>netcoreapp3.1</TargetFramework>
+	<PackageIcon>icon.png</PackageIcon>
+	<Authors>eShohag</Authors>
+	<Company></Company>
+	<Copyright>©eShohag. All rights reserved.</Copyright>
+	<RepositoryUrl>https://github.com/eshohag/Demo.DynamicInjections</RepositoryUrl>
+	<RepositoryType>github</RepositoryType>
+	<Description>Default implementation of dynamic dependency injection in ASP.NET Core projects for eShohag.AspNetCore.DynamicInjection</Description>
+	<Version>1.0.1</Version>
+	<PackageTags>AspNetCore;DynamicInjection;Dependency;Injection;Ioc;Container; IocContainer;</PackageTags>
+	<PackageProjectUrl>https://github.com/eshohag/Microsoft.Extensions.DependencyInjection.DynamicInjection</PackageProjectUrl>
+	<PackageId>eShohag.AspNetCore.DynamicInjection</PackageId>
+	<Product>AspNetCore.DynamicInjection</Product>
+	<PackageReleaseNotes>https://github.com/eshohag/Microsoft.Extensions.DependencyInjection.DynamicInjection</PackageReleaseNotes>
+	<PackageLicenseFile>LicenseInfo.txt</PackageLicenseFile>
+	<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	<developmentDependency>true</developmentDependency>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+	<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="C:\Users\Sohag\OneDrive\Pictures\icon.png">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
+	<None Include="..\..\..\Users\eshoh\Downloads\icon.png">
+	  <Pack>True</Pack>
+	  <PackagePath></PackagePath>
+	</None>
+	<None Include="..\..\..\Users\eshoh\Downloads\LicenseInfo.txt">
+	  <Pack>True</Pack>
+	  <PackagePath></PackagePath>
+	</None>
   </ItemGroup>
 
 </Project>
