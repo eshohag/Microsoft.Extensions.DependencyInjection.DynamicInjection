@@ -39,13 +39,11 @@ namespace Microsoft.Extensions.DependencyInjection.DynamicInjection
                 LoadAssemblies(scanAssembliesStartsWith);
             }
 
-            List<Type> implementations = _loadedAssemblies
-                .SelectMany(assembly => assembly.GetTypes()).Where(type => typeof(T).IsAssignableFrom(type) && type.IsClass).ToList();
+            List<Type> implementations = _loadedAssemblies.SelectMany(assembly => assembly.GetTypes()).Where(type => typeof(T).IsAssignableFrom(type) && type.IsClass).ToList();
 
             foreach (Type implementation in implementations)
             {
-                Type[] servicesToBeRegistered = implementation.GetInterfaces()
-                    .Where(i => i != typeof(ITransientService) && i != typeof(IScopedService) && i != typeof(ISingletonService)).ToArray();
+                Type[] servicesToBeRegistered = implementation.GetInterfaces().Where(i => i != typeof(ITransientService) && i != typeof(IScopedService) && i != typeof(ISingletonService)).ToArray();
 
                 if (servicesToBeRegistered.Any())
                 {
@@ -111,8 +109,7 @@ namespace Microsoft.Extensions.DependencyInjection.DynamicInjection
                 LoadAssemblies(scanAssembliesStartsWith);
             }
 
-            List<Type> servicesToBeRegistered = _loadedAssemblies
-                .SelectMany(assembly => assembly.GetTypes()).Where(type => type.IsDefined(typeof(T), false)).ToList();
+            List<Type> servicesToBeRegistered = _loadedAssemblies.SelectMany(assembly => assembly.GetTypes()).Where(type => type.IsDefined(typeof(T), false)).ToList();
 
             foreach (Type serviceType in servicesToBeRegistered)
             {
