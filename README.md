@@ -27,7 +27,7 @@
       [ScopedService]
       public interface IStudentService
       {
-          Student GetStudent();
+          Student GetStudents();
       }
       
 - As usual calling code
@@ -35,18 +35,15 @@
       public class StudentController : Controller
       {
           private readonly IStudentService _studentService;
-          private readonly IStudentManager _studentManager;
 
-          public StudentController(IStudentService studentService, IStudentManager studentManager)
+          public StudentController(IStudentService studentService)
           {
               _studentService = studentService;
-              _studentManager = studentManager;
           }
 
           public IActionResult Index()
           {
               var studentsByService = _studentService.GetStudents();
-              var studentsByManager = _studentManager.GetStudents();
 
               return View();
           }
