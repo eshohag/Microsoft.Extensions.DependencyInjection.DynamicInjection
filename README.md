@@ -27,7 +27,7 @@
       [ScopedService]
       public interface IStudentService
       {
-          Student GetStudents();
+          List<Student> GetStudents();
       }
       
 - As usual calling code
