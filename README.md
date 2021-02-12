@@ -1,5 +1,4 @@
-# Dynamic Dependency Injections in ASP.NET Core [![Build status](https://ci.appveyor.com/api/projects/status/67ubhtmijuhyhq6q?svg=true)](https://ci.appveyor.com/project/eshohag/eShohag.AspNetCore.DynamicInjection)
-[![NuGet Badge](https://buildstats.info/nuget/eShohag.AspNetCore.DynamicInjection)](https://www.nuget.org/packages/eShohag.AspNetCore.DynamicInjection)
+# Dynamic Dependency Injections [![Build status](https://ci.appveyor.com/api/projects/status/67ubhtmijuhyhq6q?svg=true)](https://ci.appveyor.com/project/eshohag/eShohag.AspNetCore.DynamicInjection) [![NuGet Badge](https://buildstats.info/nuget/eShohag.AspNetCore.DynamicInjection)](https://www.nuget.org/packages/eShohag.AspNetCore.DynamicInjection)
 
 Default implementation of dynamic dependency injections in ASP.NET Core project
 
